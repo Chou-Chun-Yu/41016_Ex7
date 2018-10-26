@@ -21,11 +21,11 @@ namespace _41016_EX7
         }
         static internal void chk_Dessert_CheckedChanged(object sender, EventArgs e)
         {
-                C.groupBox3.Enabled = C.chk_Dessert.Checked ? true : false;
+            C.groupBox3.Enabled = C.chk_Dessert.Checked ? true : false;
         }
         static internal void chk_Beverge_CheckedChanged(object sender, EventArgs e)
         {
-                C.groupBox4.Enabled = C.chk_Beverge.Checked ? true : false;
+            C.groupBox4.Enabled = C.chk_Beverge.Checked ? true : false;
         }
     }
 }
