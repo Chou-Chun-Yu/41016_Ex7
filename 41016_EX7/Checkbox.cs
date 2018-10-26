@@ -13,47 +13,19 @@ namespace _41016_EX7
 
         static internal void chk_Starter_CheckedChanged(object sender, EventArgs e)
         {
-            if (C.chk_Starter.Checked)
-            {
-                C.groupBox1.Enabled = true;
-            }
-            if (!C.chk_Starter.Checked)
-            {
-                C.groupBox1.Enabled = false;
-            }
+            C.groupBox1.Enabled = C.chk_Starter.Checked ? true : false;
         }
         static internal void chk_Main_CheckedChanged(object sender, EventArgs e)
         {
-            if (C.chk_Main.Checked)
-            {
-                C.groupBox2.Enabled = true;
-            }
-            if (!C.chk_Main.Checked)
-            {
-                C.groupBox2.Enabled = false;
-            }
+            C.groupBox2.Enabled = C.chk_Main.Checked ? true : false;
         }
         static internal void chk_Dessert_CheckedChanged(object sender, EventArgs e)
         {
-            if (C.chk_Dessert.Checked)
-            {
-                C.groupBox3.Enabled = true;
-            }
-            if (!C.chk_Dessert.Checked)
-            {
-                C.groupBox3.Enabled = false;
-            }
+                C.groupBox3.Enabled = C.chk_Dessert.Checked ? true : false;
         }
         static internal void chk_Beverge_CheckedChanged(object sender, EventArgs e)
         {
-            if (C.chk_Beverge.Checked)
-            {
-                C.groupBox4.Enabled = true;
-            }
-            if (!C.chk_Beverge.Checked)
-            {
-                C.groupBox4.Enabled = false;
-            }
+                C.groupBox4.Enabled = C.chk_Beverge.Checked ? true : false;
         }
     }
 }
